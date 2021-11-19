@@ -10,5 +10,3 @@ spec:
       - name: cifar-classifier
         image: ghcr.io/kimjunil/cifar_classifier:0.0.1
         args: ["--epochs", "1"]
-
-      restartPolicy: Never

@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cifar-classifier-deployment
+  labels:
+    app: cifar-classifier
+spec:
+  selector:
+    matchLabels:
+      app: cifar-classifier
+  template:
+    metadata:
+      labels:
+        app: cifar-classifier
+    spec:
+      containers:
+        - image: ghcr.io/kimjunil/cifar_classifier_bento:0.0.1
+          imagePullPolicy: Always
+          name: cifar-classifier
+          ports:
+            - containerPort: 5000

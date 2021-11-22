@@ -6,7 +6,7 @@ resources:
 - ../../base
 images:
 - name: ghcr.io/kimjunil/cifar_argocd
-  newTag: 0.0.16
+  newTag: 0.0.17
 - name: ghcr.io/kimjunil/cifar_classifier
   newTag: 0.0.17
 - name: ghcr.io/kimjunil/cifar_classifier_bento

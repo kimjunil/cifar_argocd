@@ -12,3 +12,7 @@ spec:
         args: ["--epochs", "1"]
 
       restartPolicy: Never
+    
+      nodeSelector:
+        #<labelname>:value
+        cloud.google.com/gke-nodepool: gpu-pool

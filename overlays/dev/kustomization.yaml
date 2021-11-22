@@ -6,6 +6,6 @@ resources:
 - ../../base
 images:
 - name: ghcr.io/kimjunil/cifar_classifier
-  newTag: 0.0.11
+  newTag: 0.0.12
 - name: ghcr.io/kimjunil/cifar_classifier_bento
   newTag: 0.0.1

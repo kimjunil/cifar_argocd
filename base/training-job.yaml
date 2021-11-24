@@ -15,4 +15,4 @@ spec:
     
       nodeSelector:
         #<labelname>:value
-        cloud.google.com/gke-nodepool: high-spec
+        cloud.google.com/gke-nodepool: gpu-pool
